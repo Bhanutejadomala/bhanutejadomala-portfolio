@@ -1,4 +1,3 @@
-
 import React from "react";
 import carrental from "../assets/projects/carrental.png"
 import expense from "../assets/projects/expense.png"
@@ -21,26 +20,30 @@ const Portfolio = () => {
         },
 
         {
-            id: 1,
+            id: 3,
             src: carrental,
+            link: "https://car-rentalservices.netlify.app/",
 
         },
 
 
         {
-            id: 1,
+            id: 4,
             src: carrental,
-            title: "Expense Tracker"
+            title: "Expense Tracker",
+            link: "https://car-rentalservices.netlify.app/",
         },
 
         {
-            id: 1,
+            id: 5,
             src: carrental,
+            link: "https://car-rentalservices.netlify.app/",
         },
 
         {
-            id: 1,
+            id: 6,
             src: carrental,
+            link: "https://car-rentalservices.netlify.app/",
         },
     ];
 
