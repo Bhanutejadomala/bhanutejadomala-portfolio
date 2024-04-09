@@ -54,7 +54,7 @@ const Portfolio = () => {
         >
             <div className="max-w-screen-lg p-4 mx-auto flex-col justify-center   w-full h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+                    <p className="text-4xl shadow-text font-bold inline border-b-4 border-gray-500">
                         Portfolio
                     </p>
                     <p className="py-6">Check out some of my work right here</p>
@@ -62,7 +62,7 @@ const Portfolio = () => {
 
                 <div className="grid  sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-6 ">
                     {portfolio.map(({ id, src, title, link, git,description}) => (
-                        <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">
+                        <div key={id} className="grid shadow-md shadow-gray-600 rounded-lg">
                             <img
                                 src={src}
                                 alt=""
